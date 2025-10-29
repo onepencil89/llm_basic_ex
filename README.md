@@ -52,3 +52,12 @@ choco install ffmpeg
 
 vs-code, 터미널 모두 닫았다가 다시 시작
 ```
+
+# huggingface 생성형 AI 실습
+```
+pip install -U transformers datasets evaluate accelerate timm
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install matplotlib
+pip install diffusers
+pip install huggingface_hub[all]
+```
